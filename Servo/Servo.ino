@@ -22,7 +22,7 @@ void setup()
   myservo.attach(SERVOMOVE_PIN);
   InitializeControlHardware();
   AddRangeControl("ServoMove",HEEP_INPUT,100,0,0);
-  StartHeep("Servo", 8);
+  StartHeep(heepDeviceName, 8);
 
 }
 
